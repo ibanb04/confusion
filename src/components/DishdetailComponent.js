@@ -9,7 +9,6 @@ function RenderComments({ dish }) {
         return (
 
             <div key={dish.comments.id} className="col-12 col-md-5 m-1">
-
                 <h1>Comments</h1>
                 {dish.comments.map((comment) =>
                     <ul className='list-unstyled'>
